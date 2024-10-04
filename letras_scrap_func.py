@@ -60,7 +60,7 @@ def get_lyrics(lyric_array : dict) :
         
         print(colorama.Fore.YELLOW +"Lyrics en cours de recuperation" + colorama.Fore.RESET)
 
-        response = requests.get(f"https://www.letras.mus.br/{lyric_array.get("dns")}/{lyric_array.get("url")}")
+        response = requests.get(f"https://www.letras.mus.br/{lyric_array.get('dns')}/{lyric_array.get('url')}")
 
         content = response.text 
 

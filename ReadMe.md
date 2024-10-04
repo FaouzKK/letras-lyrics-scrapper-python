@@ -51,7 +51,7 @@ Pour installer ce projet sur Termux, suivez ces étapes :
 
 1. **Mettez à jour les paquets de Termux** :
    ```bash
-   pkg update && pkg upgrade
+   apt update && apt upgrade
    ```
 
 2. **Installez Python et Git** :

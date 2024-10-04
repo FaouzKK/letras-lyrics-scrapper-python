@@ -1,1 +1,8 @@
 pyfiglet
+shutil
+time
+colorama
+os
+json
+requests
+BeautifulSoup

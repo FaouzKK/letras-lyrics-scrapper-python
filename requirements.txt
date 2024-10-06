@@ -1,8 +1,4 @@
 pyfiglet
-shutil
-time
+bs4
 colorama
-os
-json
 requests
-BeautifulSoup
